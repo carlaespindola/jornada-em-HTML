@@ -5,7 +5,7 @@ Achei as aulas de HTML no site https://ead.education/course/curso-de-html-e-css-
 
 Até aqui, tudo entendido. Sigamos! Não é fácil - a jornada é árdua, mas sei que valerá cada minuto aplicado.
 
-Quero entender a programação - e poder ter a liberdade de explicá-la.
+Quero entender a programação - e poder ter a liberdade de explicá-la para outras pessoas.
 
 Forte abraço,
 
