@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+     <head>
+        <title>Trabalhando com Formulários</title>
+         <meta charset="UTF-8" />
+         <link rel="stylesheet" type="text/css"  href="estilo2.css">
+        <!--arquivo externo linkado em todas as páginas é a melhor forma de trabalhar com folhas de estilo
+        cascata-->
+     </head>
+
+     <body>
+        <!--<form action="contato.php" method="get">
+             <label for="nome">Nome:</label>
+             <input id="nome" type="text" placeholder="Digite seu nome">
+
+            action = destino que irá processar o formulário--> 
+            <!-- method = forma como as informações vão ser enviadas para o action; pode ser post(envia as informações escondidas) ou get(mostra no endereço da página)-->
+            <!-- input = espaço para incluir algo, nesse caso, um texto-->
+            <!--for e id devem ter o mesmo valor-->
+            
+    
+         <form action="" method="get">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" placeholder="Digite seu nome" name="nome">
+            <label for="opcao">Voce gostou do site?</label>
+            <input id="opcao" type="radio" name="opcao" value="sim" checked="checked">Sim
+            <input id="opcao" type="radio" name="opcao" value="nao">Não
+            <!--botão do tipo radio-->
+            <label for="linguagem">Você quer aprender mais sobre:</label>
+            <input type="checkbox" name="html"/>HTML
+            <input type="checkbox" name="css"/>CSS
+            <textarea></textarea>
+            <input type="submit" value="Enviar">
+
+            <!-- ao deixar a action em branco, os dados do form são enviados para a página atual-->
+        </form>
+
+    </body>
+</html>

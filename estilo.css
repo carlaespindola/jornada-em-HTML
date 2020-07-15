@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* exemplos de css reutilizáveis*/
+
+a:link, a:visited{
+    color: #ff6600;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#wrap{
+    width: 960px;
+    margin: auto;
+    background: #e3e3e3;
+    padding: 10px 20px;
+    /*overflow: hidden; retirado*/
+}
+
+ /* esquema padding (margem dentro da wrap): top, direita, baixo, esquerda */ 
+
+header nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+header nav ul li a{
+    font-size: 18px;
+    /*color: #ff6600;
+    text-decoration: none;*/ 
+}
+/*header nav ul li a:hover{
+    text-decoration: underline;
+}*/
+
+#content{
+    float: left;
+    width: 660px;
+}
+
+#sidebar{
+    float: right;
+    width: 300px;
+}
+#sidebar ul{
+    list-style: none;
+}
+/*#sidebar ul li a{
+    color: #ff6600;
+    text-decoration: none;
+}
+#sidebar ul li a:hover{
+    text-decoration: underline;*/
+
+footer{
+    clear: both;
+}
+/* otimização do código: criar css reutilizável */
+
